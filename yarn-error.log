@@ -1,0 +1,48 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  14.17.6
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/Users/sean/Library/Caches/Yarn/v6/npm-glob-parent-6.0.2-6d237d99083950c79290f24c7642a3de9a28f9e3-integrity/node_modules/glob-parent/LICENSE' -> '/Volumes/DATA/Design_Craft/Web/vue3-vite/node_modules/tailwindcss/node_modules/glob-parent/LICENSE'
+
+npm manifest: 
+  {
+    "name": "vue3-vite",
+    "version": "0.0.0",
+    "scripts": {
+      "dev": "vite --host",
+      "build": "vite build",
+      "serve": "vite preview"
+    },
+    "dependencies": {
+      "vue": "^3.2.6"
+    },
+    "devDependencies": {
+      "@tailwindcss/forms": "^0.3.3",
+      "@vitejs/plugin-vue": "^1.6.1",
+      "@vue/compiler-sfc": "^3.2.6",
+      "autoprefixer": "^10.3.4",
+      "axios": "^0.21.4",
+      "postcss": "^8.3.6",
+      "tailwindcss": "^2.2.15",
+      "vite": "^2.5.7",
+      "vue-router": "^4.0.11"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

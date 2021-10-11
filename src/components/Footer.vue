@@ -2,7 +2,7 @@
 
 <template>
   <footer class="bg-secondary">
-    <nav class="container mx-auto text-white">
+    <nav class="container text-white">
       <div class="flex justify-between items-center">
         <div class="flex gap-5 justify-between md:justify-start items-center">
           <a href="/" class="block py-6">

@@ -10,7 +10,7 @@ const recommend = ref({
 });
 </script>
 <template>
-  <section class="container mx-auto">
+  <section class="container">
     <div
       class="
         flex flex-col

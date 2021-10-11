@@ -96,13 +96,18 @@ const training = {
           "
         />
       </li>
-      <li class="flex flex-col md:flex-row md:justify-center">
+      <li class="flex flex-col
+          md:flex-row
+          md:justify-center
+          md:items-center
+          mb-8
+          md:mb-0">
         <img
           :src="training.img"
           alt=""
-          class="h-[680px] md:h-[1080px] object-cover max-w-[555px] md:w-1/2"
+          class="h-[680px] md:h-[1080px] object-cover max-w-[555px]"
         />
-        <div class="flex justify-center items-center md:w-1/2">
+        <div class="flex justify-center items-center md:w-1/2 md:max-w-[555px]">
           <ul class="md:max-w-[350px]">
             <li
               v-for="(item, idx) in training.cont"
@@ -139,4 +144,6 @@ const training = {
   </section>
 </template>
 
-<style scoped></style>
+<style scoped>
+
+</style>

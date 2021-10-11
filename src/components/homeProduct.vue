@@ -25,7 +25,7 @@ const product = ref([
 
 <template>
   <section class="bg-light py-10">
-    <div class="container mx-auto">
+    <div class="container">
       <ul class="flex flex-col md:flex-row gap-[30px]">
         <li v-for="(item, idx) in product" :key="item.title">
           <div :class="`overlay-${idx}`">

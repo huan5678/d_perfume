@@ -2,7 +2,7 @@
 
 <template>
   <section class="subscribeHero bg-cover bg-center h-[600px]">
-    <div class="container mx-auto h-full">
+    <div class="container h-full">
       <div class="flex items-end md:w-4/12 h-full">
         <div class="pb-[112px] relative">
           <h2 class="text-gray font-0.9375 text-3xl mb-5">
